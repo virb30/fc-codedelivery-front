@@ -9,7 +9,7 @@ import { useSnackbar } from "notistack";
 import { RouteExistsError } from "../errors/route-exists.error";
 import { makeStyles } from "@material-ui/styles";
 import { Navbar } from "./Navbar";
-import { Socket, io } from 'socket.io-client';
+import { Socket } from 'socket.io-client';
 import { socket } from "../services/socket";
 
 const API_URL = process.env.REACT_APP_API_URL as string;
